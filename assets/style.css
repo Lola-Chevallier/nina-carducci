@@ -145,12 +145,16 @@ body {
 	width: 70%;
 	margin: auto;
 	padding-block: 3em;
+	background: white;
+	width: 100%;
 }
 .quote__text {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
 	position: relative;
+	padding-left: 180px;
+	padding-right: 180px;
 }
 
 .quote__author {
@@ -158,6 +162,7 @@ body {
 	font-weight: 800;
 	font-size: 22px;
 	position: relative;
+	padding-left: 180px;
 }
 
 #services {
@@ -165,13 +170,13 @@ body {
 	background-color: #A8D5D8 ;
 	position: relative;
 }
+
 #services .container::before{
 	content: ' ';
 	background-color: #1C6474;
 	position: absolute;
 	width: 100%;
-	height: 30%;
-	bottom: 0;
+	height: 20%;
 	left: 0;
 	z-index: 0;
 }
@@ -305,7 +310,8 @@ input[type="submit"] {
 
 	#services .container::before{
 		width: 30%;
-		height: 100%;
+		height: 1060px;
+		top: 0;
 		bottom: 0;
 		right: 0;
 		left: auto;
