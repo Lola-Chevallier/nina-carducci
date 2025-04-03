@@ -43,6 +43,14 @@ body {
   width: 20px;
 }
 
+/****** dimension image carroussel ******/
+
+.d-block {
+  width: 1120px;
+  height: 100%;
+  object-fit: cover;
+}
+
 #about {
   display: flex;
   background-color: #f6d2b8;
@@ -100,6 +108,11 @@ body {
 }
 .gallery .nav {
   justify-content: center;
+}
+
+.gallery-item {
+  max-width: 100%;
+  height: auto;
 }
 
 .nav-pills .nav-link.active,
